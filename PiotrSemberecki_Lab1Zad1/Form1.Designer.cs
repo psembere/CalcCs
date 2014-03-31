@@ -161,6 +161,7 @@
             this.button10.TabIndex = 11;
             this.button10.Text = "0";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // buttonPlus
             // 
@@ -170,6 +171,7 @@
             this.buttonPlus.TabIndex = 12;
             this.buttonPlus.Text = "+";
             this.buttonPlus.UseVisualStyleBackColor = true;
+            this.buttonPlus.Click += new System.EventHandler(this.buttonPlus_Click);
             // 
             // buttonMinus
             // 
@@ -179,6 +181,7 @@
             this.buttonMinus.TabIndex = 13;
             this.buttonMinus.Text = "-";
             this.buttonMinus.UseVisualStyleBackColor = true;
+            this.buttonMinus.Click += new System.EventHandler(this.buttonMinus_Click);
             // 
             // buttonDivide
             // 
@@ -188,6 +191,7 @@
             this.buttonDivide.TabIndex = 14;
             this.buttonDivide.Text = "/";
             this.buttonDivide.UseVisualStyleBackColor = true;
+            this.buttonDivide.Click += new System.EventHandler(this.buttonDivide_Click);
             // 
             // buttonMultiply
             // 
@@ -197,6 +201,7 @@
             this.buttonMultiply.TabIndex = 15;
             this.buttonMultiply.Text = "*";
             this.buttonMultiply.UseVisualStyleBackColor = true;
+            this.buttonMultiply.Click += new System.EventHandler(this.buttonMultiply_Click);
             // 
             // buttonEquals
             // 
@@ -206,6 +211,7 @@
             this.buttonEquals.TabIndex = 16;
             this.buttonEquals.Text = "=";
             this.buttonEquals.UseVisualStyleBackColor = true;
+            this.buttonEquals.Click += new System.EventHandler(this.buttonEquals_Click);
             // 
             // buttonComma
             // 
@@ -215,6 +221,7 @@
             this.buttonComma.TabIndex = 17;
             this.buttonComma.Text = ",";
             this.buttonComma.UseVisualStyleBackColor = true;
+            this.buttonComma.Click += new System.EventHandler(this.buttonComma_Click);
             // 
             // buttonClear
             // 
@@ -224,6 +231,7 @@
             this.buttonClear.TabIndex = 18;
             this.buttonClear.Text = "C";
             this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // Form1
             // 
